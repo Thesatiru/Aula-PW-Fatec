@@ -1,0 +1,131 @@
+.b-block{
+    display: block;
+    width: 100%;
+}
+
+.inline {
+    display:inline;
+}
+
+.b-inline{
+    
+}
+
+.b-inline-block{
+    display: inline-block;
+    width: 160px;
+}
+
+.b-none{
+    display: none;
+}
+
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    padding: 12px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background: burlywood;
+    text-align:  center;
+    border: 2px solid #555;
+}
+
+.relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: brown;
+}
+
+.absolute-container{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: chocolate;
+    border: 2px solid;
+    margin: 20px 0;
+}
+
+.absolute{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 60px;
+    background: #facfc1;
+    text-align: center;
+}
+
+.box{
+    background: #facfc1;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+.p-0{
+    padding: 0;   
+}
+
+.p-100{
+    padding: 100px;
+}
+
+.m-100{
+    margin: 100px;
+}
+
+.container{
+    border: 2px dashed #555;
+    padding: 16px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.f{
+    display:  flex;
+}
+
+.item{
+    background: #ffcc80;
+    border: 2px solid;
+    border-radius: 60px;
+    padding: 10px;
+
+}
+
+.j-start{
+    justify-content: start;
+}
+.j-end{
+    justify-content: end;
+}
+.j-center{
+    justify-content: center;
+}
+.j-betwen{
+    justify-content: space-between;
+}
+.j-arround{
+    justify-content: space-around;
+}
+
+.a-start{
+    justify-content: flex-start;
+}
+.a-end{
+    justify-content: flex-end;
+}
