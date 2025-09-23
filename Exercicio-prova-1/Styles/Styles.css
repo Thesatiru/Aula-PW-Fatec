@@ -9,6 +9,17 @@
     max-width: 300px;
     box-shadow: 0 4px 8px rgb(0, 0, 0, 1);
     border-radius: 10px;
+    height: 599px;
+    margin: 5px;
+    align-items: center;
+ 
+
+}
+
+#livros{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 body{
