@@ -1,0 +1,31 @@
+.livro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ED7A34;
+    width: 90%;
+    border: black;
+    margin-block-start: auto;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+body{
+    background-color: bisque;
+}
+
+#img{
+    width: 200px;
+    height: 300px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
